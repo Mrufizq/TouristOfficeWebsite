@@ -1,0 +1,744 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0%;
+    text-decoration: none;
+    font-family: "Montserrat";
+}
+
+body {
+    width: 100%;
+    height: 100%;
+
+}
+
+a {
+    color: white;
+
+}
+
+a h3 {
+    font-weight: 300;
+}
+
+.container {
+    width: 100%;
+    
+    overflow: hidden;
+    display: flex;
+    flex-flow: column nowrap;
+    height: fit-content;
+    justify-content: center;
+}
+.container h1{
+    text-align: center;
+    width: 100vw;}
+
+.nav {
+    font-family: "Montserrat";
+
+
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    margin-right: 10em;
+    align-items: center;
+}
+
+.logo {
+    background-image: url(./img/Recurso\ 1.png);
+    width: 50%;
+    background-position: 5em 1em;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    height: 5em;
+}
+
+header {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 5em;
+    justify-content: space-between;
+
+    z-index: 999999;
+
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./img/1x/Recurso\ 1.png);
+    overflow: hidden;
+    background-repeat: no-repeat;
+    
+    height: 70vh;
+    color: white;
+    font-family: "Montserrat";
+
+
+}
+.titsec2{
+    background-color: #2B335A;
+    width: 100%;
+    height: 5em;
+  align-items: center;
+  justify-content: center;
+display: flex;
+}
+.titsec2 h2{
+    color: white;
+  
+    font-family: "Montserrat";
+}
+
+
+.NoticiaGrande {
+align-self: center;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    width: 80rem;
+    height: 30rem;
+    background-image: url(./img/1x/Crucero.png);
+    position: relative;
+}
+
+.fondonot {
+    width: 40%;
+    height: 100%;
+    position: absolute;
+    background-color: #1b14649d;
+
+}
+
+.fondonot p {
+    color: white;
+    font-family: Montserrat;
+    font-size: 1.7em;
+    font-weight: 700;
+    position: relative;
+    top: 45%;
+    left: 2vw;
+    width: 15em;
+}
+
+.NoticiaGrande .flecha {
+    background-image: url(./img/1x/1x/flecha.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    position: absolute;
+    width: 2em;
+    height: 2em;
+    top: 90%;
+    left: 35%;
+}
+/*--------------------boat2--------------------------------------*/
+.contentpartes{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.parte1 {
+
+    width: 40em;
+    height: 20rem;
+margin: 2em;
+    margin-top: 2em;
+
+    position: relative;
+}
+
+.boton {
+    background-image: url(./img/1x/Recurso\ 4.png);
+    width: 4em;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 4em;
+    cursor: pointer;
+}
+
+#item1 {
+    background-image: url(./img/1x/PuertosF.png);
+
+}
+
+#item2 {
+    background-image: url(./img/1x/Coast.png);
+
+}
+
+.parte1 .boton {
+    top: 70%;
+    position: absolute;
+    left: 85%;
+}
+
+
+
+.parte1 p {
+    width: 70%;
+    position: absolute;
+    top: 40%;
+    font-size: 1.3em;
+    left: 5%;
+    color: white;
+    font-family: Montserrat;
+}
+
+
+.parte1 h2 {
+    width: 100%;
+    top: 20%;
+
+    left: 5%;
+    position: absolute;
+    margin-top: 1em;
+    color: white;
+    font-family: Montserrat;
+}
+
+/*------------------------SECTION3--------------------------------*/
+
+.section3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.section3 h1 {
+    width: 100%;
+    margin-bottom: 2em;
+    margin-top: 3em;
+    font-family: Montserrat;
+
+    text-align: center;
+}
+
+.noticias {
+    width: 20em;
+    height: 25em;
+    margin-bottom: 10em;
+    margin-left: 5em;
+    margin-right: 5em;
+
+    font-family: Montserrat;
+}
+
+.noticias h3 {
+    font-size: 0.7em;
+    margin-bottom: 0em;
+
+}
+
+.noticias p {}
+
+.fotonoticia {
+
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 20em;
+    background-position: center center;
+}
+
+#fotonoticia1 {
+    background-image: url(./img/1x/foto1H.png);
+}
+
+#fotonoticia2 {
+    background-image: url(./img/1x/foto2H.png);
+}
+
+#fotonoticia3 {
+    background-image: url(./img/1x/foto3H.png);
+}
+.sectionAIR{
+    width: 100vw;
+    height:fit-content;
+    /* background-color: #2B335A; */
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+   
+   
+ 
+}
+.air1{
+    width: 80%;
+    height: fit-content;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+   justify-content: center; 
+}
+.air1 .text{
+    width: 30%;
+    margin-top: 1vw;
+    
+    height: fit-content;
+    border-top: solid black 1px;
+    border-bottom: solid black 1px;
+   
+    
+}
+.text p{
+    font-family: Montserrat;
+    line-height: 1.5em;
+    font-size: 1.3em;
+}
+.air1 .image{
+    background-image: url(./img/pexels-pixabay-46148.jpg);
+    width: 30em;
+    margin-top: 1vw;
+    height: 30em;
+    background-position: center center;
+    background-size: contain;
+    margin-left: 10vw;
+    background-repeat: no-repeat;
+}
+.sec2tit h2{
+
+color: white;
+
+
+}
+.sec2tit{
+    display: flex;   
+    align-items: center;
+    width: 100%;
+    background-color: #2B335A;
+    height:10em;
+    justify-content: center;
+}
+.air3{
+    background-image: url(./img/pexels-matt-hardy-2308893.jpg);
+    background-position: center center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+    height: 30em;
+    width: 120em;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+ 
+}
+.air3 {
+color: white;
+position: relative;
+}
+.air3 p2{
+
+    font-size: clamp(1rem, 0.417rem + 1.944vw, 2.75rem);
+
+margin-left: 35%;
+
+width: 20em;
+}
+.air3  p{
+    
+margin-left:35%;
+font-size: 1.2em;
+
+font-style: italic;
+width:fit-content;
+
+}
+/*-------------------FOOTER-------------------------------------------------------------*/
+footer{
+    background-color: #2B335A;
+    background-image: url(./img/1x/footer.png);
+    background-repeat: no-repeat;
+    background-position:center 92%  ;
+    display: flex;
+    flex-flow: row wrap;
+    height: fit-content;
+    justify-content: center;
+}
+.section1F{
+
+    width: 30vw;
+    height: 40em;
+    position: relative;
+ 
+}
+.section1F h4{
+    width: 100%;
+    top: 20%;
+
+    left: 30%;
+    position: absolute;
+    margin-top: 1em;
+    color: white;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 2em;
+}
+.section1F li{
+    cursor: pointer;
+    margin-top: 2em;
+    color: white;
+    font-family: Montserrat;
+    font-weight: 300;
+    font-size:1.2em;
+}
+.section1F ul{
+    width: 100%;
+    top: 30%;
+
+    left: 32%;
+    position: absolute;
+    margin-top: 1em;
+    color: white;
+    font-family: Montserrat;
+   
+}
+.section2F{
+  background-image: url(./img/Recurso\ 1.png);
+background-size:20em;
+background-repeat: no-repeat;
+background-position: center 8em;
+
+width: 30vw;
+height: 40em;
+}
+
+.section3F{
+display: flex;
+flex-flow: column nowrap;
+width: 30vw;
+    height: 40em;
+    margin-top: 7em;
+   
+}
+.section3F h4{
+    width: 100%;
+    top: 20%;
+
+    left: 25%;
+
+    margin-top: 1em;
+    color: white;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 2em;
+}
+.section3F li{
+    cursor: pointer;
+    margin-top: 1em;
+    color: white;
+    font-family: Montserrat;
+    font-weight: 300;
+    font-size:1.2em;
+}
+.section3F ul{
+    width: 100%;
+    top: 30%;
+
+    left: 27%;
+  
+    margin-top: 1em;
+    color: white;
+    font-family: Montserrat;
+   
+}
+.section3F h5{
+    width: 100%;
+    top: 70%;
+
+    left: 25%;
+    margin-top: 1em;
+    color: white;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 2em;
+}
+.iconos{
+    display: flex;
+    justify-content: space-between;
+    width: 15em;
+    margin-top: 1em;
+}
+.section3F .icono1{
+    background-image: url(./img/1x/icono1.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 2em; 
+    height: 2em;
+    top: 85%;
+
+    left: 27%;
+   
+}
+.section3F .icono2{
+    background-image: url(./img/1x/icono2.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 2em; 
+    height: 2em;
+    top: 85%;
+
+    left: 34%;
+   
+}
+.section3F .icono3{
+    background-image: url(./img/1x/icono3.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 2em; 
+    height: 2em;
+    top: 85%;
+
+    left: 41%;
+   
+}
+.section3F .icono4{
+    background-image: url(./img/1x/icono4.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 2em; 
+    height: 2em;
+    top: 85%;
+
+    left: 48%;
+   
+}
+
+.section4F{
+    background-color: #20283F;
+    width: 100%;
+    height: 2em;
+    position: relative;
+    text-align: center;
+}
+.section4F h4{
+    
+   left: 29%;
+  top:0.5em;
+    position: absolute;
+
+    color: white;
+    font-family: Montserrat;
+    font-weight: 200;
+    font-size: 1em;
+}
+.abrir-menu{
+    display: none;
+}
+.navlist{
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+}
+.cerrar-menu{
+display: none;
+}
+@media only screen and (max-width: 757px) {
+        /*-------------------------------------------------------MENU-------------*/
+        .logo{
+            width: 50%;
+            background-position: 1em 1em;
+        }
+        .abrir-menu , .cerrar-menu{
+            display: block;
+            border: 0;
+            font-size: 2rem;
+            cursor: pointer;
+            background-color: transparent;
+            color: white;
+            margin-right:2em ;
+      
+        }
+    .nav{
+       opacity: 0;
+       visibility: hidden;
+       
+    }
+  
+    .nav{
+        display: flex;
+        flex-direction: column;
+        position: absolute; 
+         top: 0em;
+      right: 0em;
+      margin: 0%;
+      bottom: 0;
+      gap: 1rem;
+      background-color: #20283F;
+      padding: 2rem;
+      width: 30%;
+      height: 100vh;
+      align-items: end;
+      justify-content: flex-start;
+      box-shadow: 0 0 0 100vmax rgb(0, 0, 0,.5);
+     
+    }
+    .nav.visible{
+         opacity: 1;
+         visibility: visible;
+    }
+    .navlist{
+        display: flex;
+       flex-direction: column;
+       margin: 0%;
+       
+    
+    }
+     /*-------------------------------------------------------MENU-------------*/
+    .air3{
+        background-image: url(./img/pexels-matt-hardy-2308893.jpg);
+        background-position: center center;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    background-size: cover;
+        height: 30em;
+        width: 100vw;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+     
+    }
+    .air3 {
+    color: white;
+    position: relative;
+    }
+    .air3 p2{
+
+        font-size: clamp(1rem, 0.417rem + 1.944vw, 2.75rem);
+    
+        margin-left:20vw;
+    
+    width: 20em;
+    }
+    .air3  p{
+        
+    margin-left:30vw;
+    font-size: 1.2em;
+    
+    font-style: italic;
+    width:fit-content;
+    
+    }
+    .air1 .text{
+        width: 100%;
+        margin-top: 3em;
+        
+        height: fit-content;
+        border-top: solid black 1px;
+        border-bottom: solid black 1px;
+     
+        
+    }
+    .air1 .image{
+        background-image: url(./img/pexels-pixabay-46148.jpg);
+        width: 30em;
+        margin-top: 0vw;
+        height: 30em;
+        background-position: center center;
+        background-size: contain;
+        margin-left: 0vw;
+        background-repeat: no-repeat;
+    }
+    .sec2tit h2{
+
+        color: white;
+        margin: 2em;
+        align-self: center;
+        }
+        .parte1 .boton {
+            top: 70%;
+         
+            left: 80%;
+        }
+        
+        
+        
+        .parte1 p {
+            width: 70%;
+    
+            top: 40%;
+            font-size: clamp(1rem, 0.9rem + 0.333vw, 1.3rem);
+            left: 5%;
+            color: white;
+        }
+        
+        
+        .parte1 h2 {
+            width: 100%;
+            top: 20%;
+            font-size: clamp(1.3rem, 0.9rem + 0.333vw, 2rem);
+            left: 5%;
+          
+            margin-top: 1em;
+            color: white;
+            font-family: Montserrat;
+        }
+        
+    
+.NoticiaGrande {
+    width: 100%;
+    background-position: center center;
+}
+    
+    .fondonot {
+      width: 100%;
+    
+    }
+    
+    .fondonot p {
+        left: 10vw;
+      
+    }
+    
+    .NoticiaGrande .flecha {
+        left: 90vw;
+    }  
+    footer{
+        flex-wrap: wrap;
+    
+    }
+    .section1F{
+    
+        width: 100vw;
+        height: 20em;
+     
+    }
+    .section2F{
+    
+        width: 100vw;
+     margin-top: 0;
+     height: 20em;
+    
+    }
+    .section3F{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 100vw;
+        height: fit-content;
+    margin-bottom: 20em;
+    margin-top:2em;
+    
+    }
+    
+    .section4F h4{
+        left: 5vw;
+    
+    width: 90vw;
+    }
+    .section4F{
+        height: 4em;
+        width: 100vw;
+    
+    }
+}

@@ -1,0 +1,1130 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0%;
+    text-decoration: none;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+
+}
+
+a {
+    color: white;
+
+}
+
+a h3 {
+    font-weight: 300;
+}
+
+.nav {
+    font-family: "Montserrat";
+
+
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    margin-right: 10em;
+    align-items: center;
+}
+
+.logo {
+    background-image: url(./img/Recurso\ 1.png);
+    width: 50%;
+    background-position: 5em 1em;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    height: 5em;
+}
+
+header {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 5em;
+    justify-content: space-between;
+
+    z-index: 999999;
+
+}
+
+.hero {
+    display: flex;
+    align-items: end;
+    background-image: url(./img/pexels-stephen-leonardi-18353692.jpg);
+    background-position: center center;
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    font-family: "Montserrat";
+    background-attachment: fixed;
+
+}
+
+.hero h1 {
+    margin-left: 4em;
+    margin-bottom: 1em;
+}
+
+.historyStart {
+    background-image: url(./img/1x/historia.png);
+    background-position: center center;
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+.container {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-flow: column nowrap;
+    height: fit-content;
+    justify-content: center;
+}
+
+.Slogan {
+    color: white;
+    font-family: "Montserrat";
+    font-size: clamp(1rem, 0.333rem + 2.222vw, 3rem);
+    width: 10em;
+    align-self: center;
+    position: absolute;
+    margin-top: 8em;
+    margin-left: 4em;
+}
+
+.tit {
+    color: white;
+    font-family: "Montserrat";
+    font-size: clamp(1rem, 0.333rem + 2.222vw, 3rem);
+        width: 10em;
+    margin-top: 2em;
+    margin-left: 4em;
+    position: absolute;
+
+}
+
+.parraf {
+    color: white;
+    font-family: "Montserrat";
+    font-size: clamp(0.5rem, 0.333rem + 0.556vw, 1rem);
+    width: 40em;
+    margin-top: 20em;
+    margin-left: 60%;
+    position: absolute;
+}
+
+.historyStart2 {
+    width: 100%;
+    height: 53.625rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section2 {
+    background-image: url(./img/1x/Recurso\ 2.png);
+    background-position: center center;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 58.969rem;
+    position: relative;
+}
+
+.section2 h1 {
+    color: white;
+    font-family: "Montserrat";
+    font-size: clamp(2rem, 0.333rem + 2.222vw, 3rem);
+    width: 10em;
+    align-self: center;
+    position: absolute;
+    margin-top: 30vh;
+    margin-left: 10vw;
+}
+
+.section2 p {
+    color: white;
+    font-family: "Montserrat";
+    font-size: clamp(1.5rem, 0.333rem + 0.556vw, 1rem);
+    width: 25em;
+    align-self: center;
+    position: absolute;
+    margin-top: 50vh;
+    margin-left: 10vw;
+
+}
+
+.boton {
+    background-image: url(./img/1x/Recurso\ 4.png);
+    width: 4em;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 4em;
+    cursor: pointer;
+}
+
+.section2 .boton {
+
+    margin-top: 60vh;
+    margin-left: 30vw;
+    position: absolute;
+}
+
+.section2:focus {
+    margin-top: 60vh;
+}
+
+.fondo {
+    background-image: url(./img/1x/Recurso\ 3.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+
+    width: 95rem;
+    height: 37.604em;
+    position: relative;
+    margin-left: 10%;
+    margin-top: 10em;
+    margin-bottom: 10em;
+
+}
+
+.fondo2 {
+    background-color: #1b14649d;
+    height: 37.604rem;
+    width: 40em;
+    position: absolute;
+
+    box-sizing: border-box;
+    transition: transform 0.5s ease-in-out;
+}
+
+
+.fondo2 p {
+    color: white;
+    font-family: "Montserrat";
+    font-size: clamp(1.4rem, 0.333rem + 2.222vw, 1.5rem);
+    width: 80%;
+    align-self: center;
+    position: absolute;
+    margin-top: 30vh;
+    margin-left: 2vw;
+}
+
+.fondo2 h2 {
+    color: white;
+    font-family: "Montserrat";
+    font-size: clamp(1.5rem, 0.333rem + 2.222vw,2rem);
+    width: 25em;
+    align-self: center;
+    position: absolute;
+    margin-top: 20vh;
+    margin-left: 2vw;
+
+}
+
+.slider-container {
+
+
+    overflow: hidden;
+    position: relative;
+    height: 53.625rem;
+}
+
+.slider {
+
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    height: 100%;
+    min-width: 100%;
+    box-sizing: border-box;
+    transition: transform 0.5s ease-in-out;
+}
+
+.fondo .boton {
+    position: absolute;
+    top: 50%;
+    left: 90%;
+}
+
+#prevBtn {
+    left: 10px;
+}
+
+#nextBtn {
+    right: 10px;
+}
+
+/* Agregar animación fade */
+.fade-in {
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+#foto2s {
+    background-image: url(./img/1x/1x/slider2.png);
+}
+
+#foto3s {
+    background-image: url(./img/1x/1x/slider3.png);
+}
+
+#foto4s {
+    background-image: url(./img/1x/1x/slider4.png);
+}
+
+.section3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.section3 h1 {
+    width: 100%;
+    margin-bottom: 5em;
+    font-family: Montserrat;
+
+    text-align: center;
+}
+
+.noticias {
+    width: 20em;
+    height: 25em;
+    margin-bottom: 2em;
+    margin-left: 5em;
+    margin-right: 5em;
+
+    font-family: Montserrat;
+}
+
+.noticias h3 {
+    font-size: 0.7em;
+    margin-bottom: 0em;
+
+}
+
+.noticias p {}
+
+.fotonoticia {
+
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 20em;
+    background-position: center center;
+}
+
+#fotonoticia1 {
+    background-image: url(./img/1x/1x/noticia1.png);
+}
+
+#fotonoticia2 {
+    background-image: url(./img/1x/1x/noticia2.png);
+}
+
+#fotonoticia3 {
+    background-image: url(./img/1x/1x/noticia3.png);
+}
+
+.NoticiaGrande {
+
+    margin-bottom: 2em;
+    width: 80rem;
+    height: 30rem;
+    background-image: url(./img/1x/1x/NoticiaG.png);
+    position: relative;
+}
+
+.fondonot {
+    width: 40%;
+    height: 100%;
+    position: absolute;
+    background-color: #1b14649d;
+
+}
+
+.fondonot p {
+    color: white;
+    font-family: Montserrat;
+    font-size: 1.7em;
+    font-weight: 700;
+    position: relative;
+    top: 45%;
+    left: 2vw;
+    width: 15em;
+}
+
+.NoticiaGrande .flecha {
+    background-image: url(./img/1x/1x/flecha.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    position: absolute;
+    width: 2em;
+    height: 2em;
+    top: 90%;
+    left: 35%;
+}
+
+.section4 {
+    background-color: #2B335A;
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 5em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.section4 h1 {
+    width: 100%;
+    text-align: center;
+    margin-top: 1em;
+    color: white;
+    font-family: Montserrat;
+}
+
+.parte1 {
+
+    width: 50em;
+    height: 30rem;
+
+    margin-top: 2em;
+    position: relative;
+}
+
+.parte2 {
+    margin-top: 2em;
+    width: 35em;
+    height: 30rem;
+    margin-left: 2em;
+    position: relative;
+}
+
+#item1 {
+    background-image: url(./img/1x/1x/section4_foto1.png);
+
+}
+
+#item2 {
+    background-image: url(./img/1x/1x/1x/section4_foto2.png);
+
+}
+
+#item3 {
+    background-image: url(./img/1x/1x/1x/section4_foto3.png);
+
+}
+
+#item4 {
+    background-image: url(./img/1x/1x/1x/section4_foto4.png);
+    margin-bottom: 4em;
+
+}
+
+.parte1 .boton {
+    top: 85%;
+    position: absolute;
+    left: 90%;
+}
+
+.parte2 .boton {
+    top: 85%;
+    position: absolute;
+    left: 85%;
+}
+
+.parte1 p {
+    width: 60%;
+    position: absolute;
+    top: 70%;
+
+    left: 5%;
+    color: white;
+    font-family: Montserrat;
+}
+
+.parte2 p {
+    width: 60%;
+    top: 75%;
+
+    left: 5%;
+    position: absolute;
+    color: white;
+    font-family: Montserrat;
+}
+
+.parte1 h2 {
+    width: 100%;
+    top: 50%;
+
+    left: 5%;
+    position: absolute;
+    margin-top: 1em;
+    color: white;
+    font-family: Montserrat;
+}
+
+.parte2 h2 {
+    width: 100%;
+    top: 60%;
+
+    left: 5%;
+    position: absolute;
+    margin-top: 1em;
+    color: white;
+    font-family: Montserrat;
+}
+
+.gallery {
+
+
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    justify-content: center;
+    width: 90%;
+
+
+
+}
+
+.gallery h1 {
+    width: 100%;
+    margin-bottom: 1em;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+}
+
+.foto {
+    width: 30em;
+    height: 30em;
+    margin: 1em;
+
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.foto:hover {
+    filter: brightness(80%);
+    /* Fondo final al 90% de brillo */
+}
+
+
+
+
+
+
+
+
+
+#foto1 {
+    background-image: url(./img/1x/1x/1x/Recurso\ 9.png);
+    
+}
+
+#foto2 {
+    background-image: url(./img/1x/1x/1x/Recurso\ 5.png);
+}
+
+#foto3 {
+    background-image: url(./img/1x/1x/1x/Recurso\ 6.png);
+}
+
+#foto4 {
+    background-image: url(./img/1x/1x/1x/Recurso\ 7.png);
+}
+
+#foto5 {
+    background-image: url(./img/1x/1x/1x/Recurso\ 8.png);
+}
+
+#foto6 {
+    background-image: url(./img/1x/1x/1x/Recurso\ 10.png);
+}
+footer{
+    background-color: #2B335A;
+    background-image: url(./img/1x/footer.png);
+    background-repeat: no-repeat;
+    background-position:center 92%  ;
+    display: flex;
+    flex-flow: row wrap;
+    height: fit-content;
+    justify-content: center;
+}
+.section1F{
+
+    width: 30vw;
+    height: 40em;
+    position: relative;
+ 
+}
+.section1F h4{
+    width: 100%;
+    top: 20%;
+ 
+
+    left: 30%;
+    position: absolute;
+    margin-top: 1em;
+    color: white;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 2em;
+}
+.section1F li{
+    cursor: pointer;
+    margin-top: 2em;
+    color: white;
+    font-family: Montserrat;
+    font-weight: 300;
+    font-size:1.2em;
+}
+.section1F ul{
+    width: 100%;
+    top: 30%;
+
+    left: 32%;
+    position: absolute;
+    margin-top: 1em;
+    color: white;
+    font-family: Montserrat;
+   
+}
+.section2F{
+  background-image: url(./img/Recurso\ 1.png);
+background-size:20em;
+background-repeat: no-repeat;
+background-position: center 8em;
+
+width: 30vw;
+height: 40em;
+}
+
+.section3F{
+display: flex;
+flex-flow: column nowrap;
+width: 30vw;
+    height: 40em;
+    margin-top: 7em;
+   
+}
+.section3F h4{
+    width: 100%;
+    top: 20%;
+
+    left: 25%;
+
+    margin-top: 1em;
+    color: white;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 2em;
+}
+.section3F li{
+cursor: pointer;
+    margin-top: 1em;
+    color: white;
+    font-family: Montserrat;
+    font-weight: 300;
+    font-size:1.2em;
+}
+.section3F ul{
+    width: 100%;
+    top: 30%;
+
+    left: 27%;
+  
+    margin-top: 1em;
+    color: white;
+    font-family: Montserrat;
+   
+}
+.section3F h5{
+    width: 100%;
+    top: 70%;
+
+    left: 25%;
+
+    margin-top: 1em;
+    color: white;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 2em;
+}
+.iconos{
+    display: flex;
+    justify-content: space-between;
+    width: 15em;
+}
+.section3F .icono1{
+    background-image: url(./img/1x/icono1.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 2em; 
+    height: 2em;
+margin-top: 1em;
+
+    left: 27%;
+   
+}
+.section3F .icono2{
+    background-image: url(./img/1x/icono2.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 2em; 
+    height: 2em;
+    margin-top: 1em;
+
+
+    left: 34%;
+   
+}
+.section3F .icono3{
+    background-image: url(./img/1x/icono3.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 2em; 
+    height: 2em;
+    margin-top: 1em;
+
+
+    left: 41%;
+   
+}
+.section3F .icono4{
+    background-image: url(./img/1x/icono4.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 2em; 
+    height: 2em;
+    margin-top: 1em;
+
+
+    left: 48%;
+   
+}
+
+.section4F{
+    background-color: #20283F;
+    width: 100%;
+    height: 2em;
+    position: relative;
+    text-align: center;
+}
+.section4F h4{
+    
+   left: 29%;
+  top:0.5em;
+    position: absolute;
+
+    color: white;
+    font-family: Montserrat;
+    font-weight: 200;
+    font-size: 1em;
+}
+.abrir-menu{
+    display: none;
+}
+.navlist{
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+}
+.cerrar-menu{
+display: none;
+}
+@media only screen and (max-width: 757px) {
+    /*-------------------------------------------------------MENU-------------*/
+    .logo{
+        width: 50%;
+        background-position: 1em 1em;
+    }
+    .abrir-menu , .cerrar-menu{
+        display: block;
+        border: 0;
+        font-size: 2rem;
+        cursor: pointer;
+        background-color: transparent;
+        color: white;
+        margin-right:2em ;
+  
+    }
+.nav{
+   opacity: 0;
+   visibility: hidden;
+   
+}
+.nav{
+    display: flex;
+    flex-direction: column;
+    position: absolute; 
+     top: 0em;
+  right: 0em;
+  margin: 0%;
+  bottom: 0;
+  gap: 1rem;
+  background-color: #20283F;
+  padding: 2rem;
+  width: 30%;
+  height: 100vh;
+  align-items: end;
+  justify-content: flex-start;
+  box-shadow: 0 0 0 100vmax rgb(0, 0, 0,.5);
+ 
+}
+.nav.visible{
+     opacity: 1;
+     visibility: visible;
+}
+.navlist{
+    display: flex;
+   flex-direction: column;
+   margin: 0%;
+   
+
+}
+ /*-------------------------------------------------------MENU-------------*/
+.Slogan {
+   font-size: 2em;
+   margin-left: 20%;
+   margin-top: 30%;
+}
+
+.tit {
+    font-size: 2em;
+    margin-left: 25%;
+   
+   
+}
+
+.parraf {
+
+    font-size: 1em;
+    margin-top: 50%;
+    margin-left: 5%;
+    width: 90%;
+}
+
+.historyStart {
+background-image: url();
+background-color: #20283F;
+height: 35em;
+margin-top: 10%;
+}
+.historyStart2{
+    width: 100vw;
+}
+
+.slider-container {
+width: 100%;
+}
+
+.slider {
+width: 100vw;
+margin: 0;
+
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    height: 100%;
+    min-width: 100%;
+    box-sizing: border-box;
+    transition: transform 0.5s ease-in-out;
+}
+
+.fondo .boton {
+    position: absolute;
+    top: 80%;
+    left: 80%;
+}
+
+#prevBtn {
+    left: 10px;
+}
+
+#nextBtn {
+    right: 10px;
+}
+
+.fondo {
+    background-image: url(./img/1x/Recurso\ 3.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+
+    width: 100%;
+    height: 37.604em;
+    position: relative;
+    margin-left: 0%;
+    margin-top: 10%;
+    margin-bottom:  10%;
+
+}
+
+.fondo2 {
+    background-color: #1b14649d;
+    height: 37.604rem;
+    width: 100%;
+    position: absolute;
+
+    box-sizing: border-box;
+    transition: transform 0.5s ease-in-out;
+}
+
+.fondo2 p {
+   margin-top: 40%;
+   
+   margin-left: 5%;
+}
+
+.fondo2 h2 {
+    margin-top: 30%;
+    margin-left: 5%;
+}
+.section2 h1 {
+    color: white;
+    font-family: "Montserrat";
+    font-size: clamp(2rem, 0.333rem + 2.222vw, 3rem);
+    width: 15em;
+    align-self: center;
+    position: absolute;
+    margin-top: 20vh;
+    margin-left: 10vw;
+}
+
+.section2 p {
+    color: white;
+    font-family: "Montserrat";
+    font-size: clamp(1.5rem, 0.333rem + 0.556vw, 1rem);
+    width: 15em;
+    align-self: center;
+    position: absolute;
+    margin-top: 30vh;
+    margin-left: 10vw;
+
+}
+
+.section2 .boton {
+
+    margin-top: 50vh;
+    margin-left: 70vw;
+    position: absolute;
+}
+.hero h1 {
+    margin-left: 1em;
+    margin-bottom: 1em;
+    width: 100%;
+}
+.NoticiaGrande {
+
+    margin-bottom: 0em;
+    width: 100vw;
+    height: 30rem;
+  
+}
+
+.fondonot {
+    width: 100%;
+    height: 100%;
+ 
+  
+
+}
+
+.fondonot p {
+  
+
+    font-size: 2em;
+
+
+    top: 30%;
+    left: 4vw;
+   
+    width: 12em;
+}
+
+.NoticiaGrande .flecha {
+
+    width: 2em;
+    height: 2em;
+    top: 80%;
+    left: 90%;
+}
+
+
+
+.parte1 {
+
+    width: 100vw;
+    height: 15rem;
+    margin-bottom: 0em;
+    margin-top: 0em;
+    position: relative;
+}
+
+.parte2 {
+    margin-top: 0em;
+    width: 100%;
+    height: 15rem;
+    margin-left: 0em;
+
+}
+.parte1 .boton {
+    top: 70%;
+
+    left: 80%;
+}
+
+.parte2 .boton {
+    top: 70%;
+
+    left: 80%;
+}
+
+.parte1 p {
+    width: 80%;
+  
+    top: 50%;
+
+    left: 5%;
+   
+}
+
+.parte2 p {
+    width: 80%;
+    
+    top:55%;
+
+    left: 5%;
+}
+
+.parte1 h2 {
+    width: 100%;
+    top: 30%;
+
+    left: 5%;
+    
+    margin-top: 1em;
+   
+}
+
+.parte2 h2 {
+    width: 100%;
+    top: 30%;
+
+    left: 5%;
+    
+    margin-top: 1em;
+}
+.gallery{
+    margin: 0%;
+    width: 100%;
+}
+.foto {
+    width: 100%;
+ 
+    height: 50vh;
+    margin: 0em;
+
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.noticias {
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 0em;
+    margin-left: 0em;
+    margin-right: 0em;
+
+    font-family: Montserrat;
+}
+.fotonoticia {
+
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 30em;
+    background-position: center center;
+}
+.noticias p {
+    margin-left: 15%;
+    margin-bottom: 5em;
+    font-size: 1.2em;
+    width: 80%;
+}
+.noticias h3 {
+    margin-left: 15%;
+  
+}
+footer{
+    flex-wrap: wrap;
+
+}
+.section1F{
+
+    width: 100vw;
+    height: 20em;
+ 
+}
+.section2F{
+
+    width: 100vw;
+ margin-top: 0;
+ height: 20em;
+
+}
+.section3F{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100vw;
+    height: fit-content;
+margin-bottom: 20em;
+margin-top:2em;
+
+}
+
+.section4F h4{
+    left: 5vw;
+
+width: 90vw;
+}
+.section4F{
+    height: 4em;
+    width: 100vw;
+
+}
+}
